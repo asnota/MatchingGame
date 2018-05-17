@@ -286,16 +286,32 @@ h1 {
 
 /*Styling for responsive design*/
 
-@media (max-width: 320px) {
-	.deck {
-		width: 85%;
-	}
+@media (max-width: 699px){
+ .deck {
+    width: 400px;
+    min-height: 400px;
+  }
 
-	.deck .card {
-		height: 4.7rem;
-		width: 4.7rem;
-	}
+  .deck .card {
+    height: 75px;
+    width: 75px;
+   }
+
+  .deck .card.show {
+    font-size: 22px;
+  }
+
+  .deck .card.match {
+    font-size: 22px;
 }
+
+  .score-panel {
+    text-align: left;
+    width: 380px;
+    margin-bottom: 10px;
+  }
+}
+
 
 /*Styling for larger screens*/
 
