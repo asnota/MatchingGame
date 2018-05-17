@@ -150,13 +150,16 @@ function moveCounter(){
 
   //Set rates based on moves
   if (moves === 12){
-    stars[2].style.visibility = "hidden";
+    stars[4].style.visibility = "hidden";
   }
   else if (moves === 18){
-    stars[1].style.visibility = "hidden";
+    stars[3].style.visibility = "hidden";
   }
-  else if (moves === 24){
-    stars[0].style.visibility = "hidden";
+  else if (moves === 22){
+    stars[2].style.visibility = "hidden";
+  }
+  else if (moves === 26){
+    stars[1].style.visibility = "hidden";
   }
 }
 
