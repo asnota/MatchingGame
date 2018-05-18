@@ -31,7 +31,7 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Deployment
 
-The project is built with pure JavaScript.
+The project is built with pure JavaScript. No dependencies were used.
 
 ## Authors
 
